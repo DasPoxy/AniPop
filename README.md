@@ -10,6 +10,17 @@ A dark blue/orange Omarchy theme, backed up from a live system on 2026-09-21.
   applied by `hooks/theme-set-anipop.sh` — see below for why this is a hook
   instead of living in `hyprland.lua`
 
+> **Note:** the status bar in the screenshots/recording below is
+> Ruixen-Shell, a separate Omarchy shell config — it's not part of this repo
+> and installing AniPop won't bring it in on its own.
+
+## Examples
+
+| | |
+|---|---|
+| ![Desktop with Ruixen-Shell bar](examples/screenshot-desktop.png) | ![Wallpaper close-up](examples/screenshot-wallpaper.png) |
+| ![Matrix overlay effect](examples/screenshot-matrix-overlay.png) | [▶ Screen recording](examples/recording.mp4) |
+
 ## Install
 
 ```bash
