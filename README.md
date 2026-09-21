@@ -29,7 +29,11 @@ A softer pantone style anime theme to go along with Ruixen-Shell and its more bu
 | | |
 |---|---|
 | ![Desktop with Ruixen-Shell bar](examples/screenshot-desktop.png) | ![Wallpaper close-up](examples/screenshot-wallpaper.png) |
-| ![Matrix overlay effect](examples/screenshot-matrix-overlay.png) | <video src="https://github.com/DasPoxy/AniPop/raw/main/examples/recording.mp4" controls width="100%"></video> |
+| ![Matrix overlay effect](examples/screenshot-matrix-overlay.png) | 
+
+https://github.com/user-attachments/assets/d648730f-57d0-4e3b-8847-4bce8182ed2d
+
+|
 
 ## Install
 
