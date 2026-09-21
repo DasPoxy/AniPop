@@ -68,10 +68,16 @@ theme and back) after installing the hook to pick it up.
 Border *color* is left alone — Omarchy regenerates that from `colors.toml`'s
 `accent` value for every theme automatically, repo-installed or not.
 
-These are applied live via `hyprctl keyword` on theme-set. If something else
-on your system (a separate `hyprland.lua`, another hook, `hyprctl reload`
-re-sourcing your own config) sets these same options afterward, that will
-win until AniPop is re-applied — this hook isn't a persistent config file,
+These are applied live via `hyprctl eval` + `hl.config({...})` on theme-set —
+`hyprctl keyword` refuses outright on a Lua-configured Hyprland fork ("keyword
+can't work with non-legacy parsers"), so the hook uses the same mechanism a
+Lua `hyprland.lua` itself would. On stock (non-Lua-configured) Hyprland, use
+`hyprctl --batch "keyword general:border_size 1; ..."` instead — swap the
+`hyprctl eval '...'` block in `hooks/theme-set-anipop.sh` for that form. If
+something else on your system (a separate `hyprland.lua`, another hook,
+`hyprctl reload` re-sourcing your own config) sets these same options
+afterward, that will win until AniPop is re-applied — this hook isn't a
+persistent config file,
 just a re-assert-on-theme-switch.
 
 ## Local / hand-edited install (no stripping)
