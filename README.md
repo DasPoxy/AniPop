@@ -1,6 +1,6 @@
 # AniPop
 
-A dark blue/orange Omarchy theme, backed up from a live system on 2026-09-21.
+A softer pantone style anime theme to go along with Ruixen-Shell and its more bubbly style. Just something I've been messing with and thought others might enjoy as well. Repo created/managed with Claude.
 
 - Palette: `colors.toml` (drives terminals, btop, Chromium, Neovim, Helix,
   VSCode, Obsidian, and the Omarchy shell)
@@ -14,9 +14,11 @@ A dark blue/orange Omarchy theme, backed up from a live system on 2026-09-21.
   applied by `hooks/theme-set-anipop.sh` — see below for why this is a hook
   instead of living in `hyprland.lua`
 
-> **Note:** the status bar in the screenshots/recording below is
+> **Note:** the top bar and command center in the screenshots/recording below is
 > Ruixen-Shell, a separate Omarchy shell config — it's not part of this repo
-> and installing AniPop won't bring it in on its own.
+> and installing AniPop won't bring it in on its own. Go check it out!: https://github.com/gitcoder89431/ruixen-shell
+
+
 
 ## Examples
 
