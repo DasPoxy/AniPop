@@ -1,0 +1,32 @@
+:root {
+  --custom-zen-color-scheme: dark;
+  --custom-zen-bg: #000923;
+  --custom-zen-fg: #ffd5b2;
+  --custom-zen-accent: #3f74ff;
+
+  --custom-zen-surface-0: #000923;
+  --custom-zen-surface-1: #000923;
+  --custom-zen-surface-2: #3c6291;
+
+  --custom-zen-border: color-mix(in srgb, #000923 80%, #ffd5b2);
+  --custom-zen-panel: color-mix(in srgb, #000923 88%, #ffd5b2);
+
+  --custom-zen-accent-hover: #b0c6ff;
+  --custom-zen-accent-active: #b5c6f1;
+
+  --custom-zen-red: #ff1720;
+  --custom-zen-green: #1be33a;
+  --custom-zen-yellow: #d9b800;
+  --custom-zen-blue: #3f74ff;
+  --custom-zen-pink: #f52e9b;
+  --custom-zen-cyan: #00bea8;
+
+  --custom-zen-orange: color-mix(in srgb, #ff1720 50%, #d9b800 50%);
+  --custom-zen-purple: color-mix(in srgb, #3f74ff 50%, #f52e9b 50%);
+
+  --custom-zen-selection-bg: #1a2239;
+  --custom-zen-selection-fg: #000923;
+
+  --custom-zen-fg-muted: rgba(255,213,178, 0.75);
+  --custom-zen-fg-faint: rgba(255,213,178, 0.65);
+}
