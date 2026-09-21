@@ -5,7 +5,13 @@
 # `omarchy theme install` / git clone (see docs/theming.md), so rounding,
 # opacity, gaps, and blur can't ship as part of the theme's own hyprland.lua.
 # Installing this as a `theme-set` hook (see README) re-applies them live via
-# `hyprctl keyword` every time the theme changes, which survives that strip.
+# `hyprctl eval` every time the theme changes, which survives that strip.
+#
+# `hyprctl eval '<lua>'` (not `hyprctl keyword`) because this system's
+# Hyprland is a Lua-configured fork -- `hyprctl keyword` refuses outright
+# ("keyword can't work with non-legacy parsers. Use eval."), and the syntax
+# below mirrors the same hl.config() calls the fork's own hyprland.lua uses.
+# On stock Hyprland, swap this for a `hyprctl --batch "keyword ...` block.
 #
 # Border color is intentionally left alone here -- Omarchy regenerates that
 # from colors.toml's `accent` automatically for every theme, repo-installed
@@ -14,22 +20,32 @@
 THEME_NAME=$1
 [[ $THEME_NAME == "anipop" ]] || exit 0
 
-hyprctl --batch "\
-keyword general:border_size 1;\
-keyword general:gaps_in 2;\
-keyword general:gaps_out 9;\
-keyword decoration:rounding 16;\
-keyword decoration:active_opacity 0.98;\
-keyword decoration:inactive_opacity 0.75;\
-keyword decoration:fullscreen_opacity 0.99;\
-keyword decoration:blur:enabled true;\
-keyword decoration:blur:size 4;\
-keyword decoration:blur:passes 2;\
-keyword decoration:blur:noise 0.01;\
-keyword decoration:shadow:enabled true;\
-keyword decoration:shadow:range 12;\
-keyword decoration:shadow:render_power 3;\
-keyword decoration:shadow:color rgba(00000090);\
-keyword decoration:shadow:color_inactive rgba(00000048);\
-keyword decoration:shadow:offset 0 3\
-" >/dev/null 2>&1
+hyprctl eval '
+hl.config({
+  general = {
+    border_size = 1,
+    gaps_in = 2,
+    gaps_out = 9,
+  },
+  decoration = {
+    rounding = 16,
+    active_opacity = 0.98,
+    inactive_opacity = 0.75,
+    fullscreen_opacity = 0.99,
+    blur = {
+      enabled = true,
+      size = 4,
+      passes = 2,
+      noise = 0.01,
+    },
+    shadow = {
+      enabled = true,
+      range = 12,
+      render_power = 3,
+      color = "rgba(00000090)",
+      color_inactive = "rgba(00000048)",
+      offset = { 0, 3 },
+    },
+  },
+})
+' >/dev/null 2>&1
