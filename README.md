@@ -1,3 +1,7 @@
+
+
+
+
 # AniPop
 
 A softer pantone style anime theme to go along with Ruixen-Shell and its more bubbly style. Just something I've been messing with and thought others might enjoy as well. Repo created/managed with Claude.
@@ -25,7 +29,7 @@ A softer pantone style anime theme to go along with Ruixen-Shell and its more bu
 | | |
 |---|---|
 | ![Desktop with Ruixen-Shell bar](examples/screenshot-desktop.png) | ![Wallpaper close-up](examples/screenshot-wallpaper.png) |
-| ![Matrix overlay effect](examples/screenshot-matrix-overlay.png) | [▶ Screen recording](examples/recording.mp4) |
+| ![Matrix overlay effect](examples/screenshot-matrix-overlay.png) | [▶ Screen recording] (examples/recording.mp4)|
 
 ## Install
 
