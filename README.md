@@ -13,7 +13,7 @@ A dark blue/orange Omarchy theme, backed up from a live system on 2026-09-21.
 ## Install
 
 ```bash
-omarchy theme install https://github.com/<you>/omarchy-anipop-theme.git
+omarchy theme install https://github.com/DasPoxy/AniPop.git
 # or, from the Omarchy menu: Style > Themes > Install from URL
 ```
 
@@ -66,7 +66,7 @@ need it installable via a URL, skip `omarchy theme install` and just place
 the folder directly:
 
 ```bash
-git clone https://github.com/<you>/omarchy-anipop-theme.git /tmp/anipop
+git clone https://github.com/DasPoxy/AniPop.git /tmp/anipop
 rsync -a --exclude .git /tmp/anipop/ ~/.config/omarchy/themes/anipop/
 omarchy theme set anipop
 ```
