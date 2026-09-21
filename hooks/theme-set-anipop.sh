@@ -21,7 +21,7 @@ keyword general:gaps_out 9;\
 keyword decoration:rounding 16;\
 keyword decoration:active_opacity 0.98;\
 keyword decoration:inactive_opacity 0.75;\
-keyword decoration:fullscreen_opacity 0.96;\
+keyword decoration:fullscreen_opacity 0.99;\
 keyword decoration:blur:enabled true;\
 keyword decoration:blur:size 4;\
 keyword decoration:blur:passes 2;\

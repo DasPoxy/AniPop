@@ -61,7 +61,7 @@ theme and back) after installing the hook to pick it up.
 | `decoration:rounding` | 16 |
 | `decoration:active_opacity` | 0.98 |
 | `decoration:inactive_opacity` | 0.75 |
-| `decoration:fullscreen_opacity` | 0.96 |
+| `decoration:fullscreen_opacity` | 0.99 |
 | `decoration:blur` | enabled, size 4, passes 2, noise 0.01 |
 | `decoration:shadow` | enabled, range 12, power 3, `rgba(00000090)` active / `rgba(00000048)` inactive, offset `0 3` |
 
