@@ -9,19 +9,18 @@ A softer pantone style anime theme to go along with Ruixen-Shell and its more bu
 - Palette: `colors.toml` (drives terminals, btop, Chromium, Neovim, Helix,
   VSCode, Obsidian, and the Omarchy shell)
 - Backgrounds: `backgrounds/` — every wallpaper that was in rotation for
-  this theme, named `Anipop_1.png` through `Anipop_5.jpg`. Omarchy picks
+  this theme, named `Anipop_1.png` through `Anipop_10.png`. Omarchy picks
   alphabetically first when a theme has never been applied before, so
-  `Anipop_1.png` (the wallpaper live on the system when this was backed up)
-  is what you'll see the first time you apply the theme. Cycle through the
+  `Anipop_1.png` is what you'll see the first time you apply the theme. Cycle through the
   rest with `omarchy theme bg next`.
 - Hyprland window look (rounding, opacity, border, gaps, blur, shadow):
   applied by `hooks/theme-set-anipop.sh` — see below for why this is a hook
   instead of living in `hyprland.lua`
 - Icon theme: `icons.theme` — `Yaru-red-dark`
 
-> **Note:** the top bar and command center in the screenshots/recording below is
+> **Note:** the top bar and command center in the screenshots below is
 > Ruixen-Shell, a separate Omarchy shell config — it's not part of this repo
-> and installing AniPop won't bring it in on its own. (I haven't tried the windows settings without Ruixen so I'm not sure if the gaps are wonky. Go check it out!: https://github.com/gitcoder89431/ruixen-shell
+> and installing AniPop won't bring it in on its own. (I haven't tried the windows settings without Ruixen so I'm not sure if the gaps are wonky. Go check it out!: https://github.com/gitcoder89431/ruixen-shell)
 
 
 
@@ -30,7 +29,7 @@ A softer pantone style anime theme to go along with Ruixen-Shell and its more bu
 | | |
 |---|---|
 | ![Desktop with fastfetch, file manager, and btop](examples/screenshot-desktop.png) | ![Desktop with music streaming widget](examples/screenshot-wallpaper.png) |
-| ![Wallpaper picker with desktop widgets: karaoke player, system monitor, and quick launch](examples/screenshot-matrix-overlay.png) | <img width="2559" height="1440" alt="screenshot-2026-09-22_20-06-22" src="https://github.com/user-attachments/assets/6f05baef-e576-42f4-a9ec-0d781edbcd83" /> |
+| ![Wallpaper picker with desktop widgets: karaoke player, system monitor, and quick launch](examples/screenshot-matrix-overlay.png) | ![Desktop with clock, weather, quick launch, and system monitor widgets](examples/screenshot-2026-09-22_20-06-22.png) |
 
 ## Install
 

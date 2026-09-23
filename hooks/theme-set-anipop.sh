@@ -7,8 +7,8 @@
 # Installing this as a `theme-set` hook (see README) re-applies them live via
 # `hyprctl eval` every time the theme changes, which survives that strip.
 #
-# `hyprctl eval '<lua>'` (not `hyprctl keyword`) because this system's
-# Hyprland is a Lua-configured fork -- `hyprctl keyword` refuses outright
+# `hyprctl eval '<lua>'` (not `hyprctl keyword`) because Omarchy's
+# Hyprland is Lua-configured -- `hyprctl keyword` refuses outright
 # ("keyword can't work with non-legacy parsers. Use eval."), and the syntax
 # below mirrors the same hl.config() calls the fork's own hyprland.lua uses.
 # On stock Hyprland, swap this for a `hyprctl --batch "keyword ...` block.
