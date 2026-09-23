@@ -21,7 +21,7 @@ A softer pantone style anime theme to go along with Ruixen-Shell and its more bu
 
 > **Note:** the top bar and command center in the screenshots/recording below is
 > Ruixen-Shell, a separate Omarchy shell config — it's not part of this repo
-> and installing AniPop won't bring it in on its own. Go check it out!: https://github.com/gitcoder89431/ruixen-shell
+> and installing AniPop won't bring it in on its own. (I haven't tried the windows settings without Ruixen so I'm not sure if the gaps are wonky. Go check it out!: https://github.com/gitcoder89431/ruixen-shell
 
 
 
