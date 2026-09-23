@@ -24,8 +24,8 @@ hyprctl eval '
 hl.config({
   general = {
     border_size = 1,
-    gaps_in = 2,
-    gaps_out = 9,
+    gaps_in = 4,
+    gaps_out = 10,
   },
   decoration = {
     rounding = 16,
