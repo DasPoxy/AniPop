@@ -30,9 +30,10 @@ A softer pantone style anime theme to go along with Ruixen-Shell and its more bu
 | | |
 |---|---|
 | ![Desktop with fastfetch, file manager, and btop](examples/screenshot-desktop.png) | ![Desktop with music streaming widget](examples/screenshot-wallpaper.png) |
-| ![Wallpaper picker with fastfetch](examples/screenshot-matrix-overlay.png) | https://github.com/user-attachments/assets/d648730f-57d0-4e3b-8847-4bce8182ed2d | <img width="2559" height="1440" alt="screenshot-2026-09-22_20-06-22" src="https://github.com/user-attachments/assets/224979b6-4e81-40a1-944e-77044e74ddc6" /> |
+| ![Wallpaper picker with fastfetch](examples/screenshot-matrix-overlay.png) | <img width="2559" height="1440" alt="screenshot-2026-09-22_20-06-22" src="https://github.com/user-attachments/assets/6f05baef-e576-42f4-a9ec-0d781edbcd83" />
+ | <img width="2559" height="1440" alt="screenshot-2026-09-22_20-06-22" src="https://github.com/user-attachments/assets/224979b6-4e81-40a1-944e-77044e74ddc6" /> |
 
-| <img width="2558" height="1440" alt="screenshot-2026-09-21_19-22-57" src="https://github.com/user-attachments/assets/953d31d7-f1ab-4944-962e-3a62c4fbefc6" /> |
+| https://github.com/user-attachments/assets/d648730f-57d0-4e3b-8847-4bce8182ed2d |
 
 
 ## Install
