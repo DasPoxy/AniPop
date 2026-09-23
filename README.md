@@ -63,8 +63,8 @@ theme and back) after installing the hook to pick it up.
 | Setting | Value |
 |---|---|
 | `general:border_size` | 1 |
-| `general:gaps_in` | 2 |
-| `general:gaps_out` | 9 |
+| `general:gaps_in` | 4 |
+| `general:gaps_out` | 10 |
 | `decoration:rounding` | 16 |
 | `decoration:active_opacity` | 0.98 |
 | `decoration:inactive_opacity` | 0.75 |
