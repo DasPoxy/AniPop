@@ -9,11 +9,11 @@ A softer pantone style anime theme to go along with Ruixen-Shell and its more bu
 - Palette: `colors.toml` (drives terminals, btop, Chromium, Neovim, Helix,
   VSCode, Obsidian, and the Omarchy shell)
 - Backgrounds: `backgrounds/` — every wallpaper that was in rotation for
-  this theme, `anipop-default.png` first. Omarchy picks alphabetically
-  first when a theme has never been applied before, and `a` sorts ahead of
-  `w`, so `anipop-default.png` (the wallpaper live on the system when this
-  was backed up) is what you'll see the first time you apply the theme.
-  Cycle through the rest with `omarchy theme bg next`.
+  this theme, named `Anipop_1.png` through `Anipop_5.jpg`. Omarchy picks
+  alphabetically first when a theme has never been applied before, so
+  `Anipop_1.png` (the wallpaper live on the system when this was backed up)
+  is what you'll see the first time you apply the theme. Cycle through the
+  rest with `omarchy theme bg next`.
 - Hyprland window look (rounding, opacity, border, gaps, blur, shadow):
   applied by `hooks/theme-set-anipop.sh` — see below for why this is a hook
   instead of living in `hyprland.lua`
