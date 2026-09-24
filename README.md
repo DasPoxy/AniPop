@@ -37,7 +37,7 @@ PS: This is my first theme and I'm still getting used to github so bear with me 
 ## Install
 
 ```bash
-omarchy theme install https://github.com/DasPoxy/AniPop.git
+omarchy theme install https://github.com/DasPoxy/omarchy-anipop-theme.git
 # or, from the Omarchy menu: Style > Themes > Install from URL
 ```
 
@@ -96,7 +96,7 @@ need it installable via a URL, skip `omarchy theme install` and just place
 the folder directly:
 
 ```bash
-git clone https://github.com/DasPoxy/AniPop.git /tmp/anipop
+git clone https://github.com/DasPoxy/omarchy-anipop-theme.git /tmp/anipop
 rsync -a --exclude .git /tmp/anipop/ ~/.config/omarchy/themes/anipop/
 omarchy theme set anipop
 ```
