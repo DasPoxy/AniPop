@@ -30,8 +30,9 @@ PS: This is my first theme and I'm still getting used to github so bear with me 
 
 | | |
 |---|---|
-| ![Desktop with fastfetch, file manager, and btop](examples/screenshot-desktop.png) | ![Desktop with music streaming widget](examples/screenshot-wallpaper.png) |
-| ![Wallpaper picker with desktop widgets: karaoke player, system monitor, and quick launch](examples/screenshot-matrix-overlay.png) | ![Desktop with clock, weather, quick launch, and system monitor widgets](examples/screenshot-2026-09-22_20-06-22.png) |
+| ![Desktop with widgets: karaoke player, quick notes, quick launch, visit another realm, a beholder Abyss Warden, clock and weather, system monitor, about this system, and git activity](examples/screenshot-widgets-desktop.png) | ![Desktop with fastfetch, file manager, and btop](examples/screenshot-desktop.png) |
+| ![Desktop with music streaming widget](examples/screenshot-wallpaper.png) | ![Wallpaper picker with desktop widgets: karaoke player, system monitor, and quick launch](examples/screenshot-matrix-overlay.png) |
+| ![Desktop with clock, weather, quick launch, and system monitor widgets](examples/screenshot-2026-09-22_20-06-22.png) | ![Balcony wallpaper under a cloudy sky, with matrix-rain and ASCII-art widgets](examples/screenshot-balcony-ascii.png) |
 
 ## Install
 
